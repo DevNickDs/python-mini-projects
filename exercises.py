@@ -56,7 +56,7 @@ def fibonacci():
 
 fibonacci()
 
-### Prime Numbers ###
+### PRIME NUMBERS ###
 
 def prime_numbers():
     for number in range (1, 101):
@@ -69,3 +69,13 @@ def prime_numbers():
                 print(number)
 
 prime_numbers()
+
+### REVERSE TEXT ###
+
+def reverse(text):
+    reversed_text = ""
+    for i in text[ : :-1]:
+        reversed_text += i
+    print(reversed_text)
+
+reverse("Hello, World!")
