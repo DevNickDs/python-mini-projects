@@ -41,3 +41,31 @@ print(anagrams(word1_test_a, word2_test_a))
 print(anagrams(word1_test_b, word2_test_b))
 print(anagrams(word1_test_c, word2_test_c))
 print(anagrams(word1_test_d, word2_test_d))
+
+### FIBONACCI ###
+
+def fibonacci():
+    prev = 0
+    next = 1
+
+    for i in range(50):
+        print(prev)
+        fib = prev + next
+        prev = next
+        next = fib
+
+fibonacci()
+
+### Prime Numbers ###
+
+def prime_numbers():
+    for number in range (1, 101):
+        if number >= 2:
+            is_divisible = False
+            for i in range (2, number):
+                if number % i == 0:
+                    is_divisible = True
+            if not is_divisible:
+                print(number)
+
+prime_numbers()
