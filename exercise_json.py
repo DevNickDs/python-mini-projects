@@ -17,3 +17,6 @@ with open("python_mini_projects\my_json.json", "r") as my_other_json:
     for i in my_other_json.readlines():
         print(i)
 
+json_dict = json.load(open("python_mini_projects\my_json.json"))
+
+print(json_dict)
