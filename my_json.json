@@ -1,1 +1,10 @@
-{"name": "NiubProgrammer", "age": 21, "language": "Python", "is_cool": true}
+{
+    "name": "NiubProgrammer",
+    "age": 21,
+    "language": [
+        "Python",
+        "JavaScript",
+        "C++"
+    ],
+    "is_cool": true
+}
